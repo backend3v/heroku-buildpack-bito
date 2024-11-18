@@ -2,9 +2,7 @@
 
      # Install Bito CLI
      echo "Installing Bito CLI..."
-     curl -L -o bito-cli.tar.gz "https://path-to-bito-cli-release.tar.gz" # Replace with the actual URL
-     tar -xzf bito-cli.tar.gz
-     mv bito /usr/local/bin/bito
-     chmod +x /usr/local/bin/bito
+     curl https://alpha.bito.ai/downloads/cli/install.sh -fsSL | bash # Replace with the actual URL
+     bito -v
 
      echo "Bito CLI installed successfully."
